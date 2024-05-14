@@ -1,0 +1,175 @@
+* {
+    font-family: sans-serif;/*Formatando as fontes da página*/
+    box-sizing: border-box; /*Tamanho da caixa*/
+    margin: 0;/*Zerando as margens dos elementos*/
+}
+
+/*Formatando os elementos do cabeçalho*/
+header{
+    padding: 1rem;
+    box-shadow: 0 5px 10px rgb(37,37,212);
+    position: sticky;   /*fixando o cabeçalho*/
+    top: 0;     /*Fixando no topo*/
+    left: 0;    /*Fixando à esquerda*/
+    background-color: rgb(78, 24, 202);    /*Cor de fundo*/    
+}
+
+body{
+	background-color: ;
+}
+
+/*Alinha os elementos do cabeçalho.*/
+nav {
+    display: flex;
+    justify-content:space-between;  /*Espaçando os ítens de cabeçaho*/
+    align-items: center;            /*Fixando os íntens no meio do cabeçalho*/
+}
+
+/*Mudando o comportamento do botão (mãozinha)*/
+button {
+    cursor: pointer;
+}
+
+/*Alinhando os ítens do cabeçalho - elementos de navegação*/
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/*Dispor os elementos do cabeçalho em linha.*/
+header ul {
+    display: flex;
+}
+
+/*Formatando os links do cabeçalho*/
+nav ul a {
+    margin-left: 2rem;  /*Definindo a margem esquerda*/
+    list-style: none;   /*Tirando os marcadores dos links*/
+    font-weight: bold;  /*Formatando a fonte*/
+    font-weight: bold;  /*Negrito*/
+}
+/*"classe navitem - links do cabeçalho"*/
+.navitem{
+	/*Cor da fonte dos links do cabeçalho.*/
+    color:white;
+    /*Tirando o sublinhado do link*/
+    text-decoration: none;
+}
+
+/*Pseudo-seletor*/
+/*Muda a cor do link quando o curso passar por cima*/
+.navitem:hover{
+    color:rgb(116, 224, 54)
+}
+
+/*Descendo o texto da linha sombreada*/
+main {
+    padding: 1rem;
+    min-height: 100dvh; /*Altura mínima da seção principal*/
+}
+
+/*Criando bordas arredondadas nas imagens.*/
+.imagem{
+	border-radius: 3%;		
+}
+
+/*Footer - rodapé*/
+footer {
+    background-color: rgb(48, 48, 199);
+    padding: 1rem;
+    color: white;     /*Cor da fonte*/
+    position: sticky;   /*Fixando o rodapé*/
+    bottom: 0;
+    display: flex;
+    justify-content: space-around; /*Organizando os elementos (frase)*/
+    font-weight: bold;
+    box-shadow: 0 -5px 10px rgb(66, 66, 233);
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Primeira seção do "main"; engloba a seção "explainer"*/
+#hero{
+    display: flex;
+    padding:  1rem 0;
+}
+
+/*Formatando o texto*/
+#texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /*Alinhando o texto*/ 
+    color: #190be4;     /*Cor da fonte*/
+    text-align: justify;  /*Texto justificado*/
+    padding: 10px;        /*Criando margem para o texto*/
+}
+
+#tituloatrações{
+    text-align: center;
+    color: #190be4;     /*Cor da fonte*/
+}
+#atrações{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /*Alinhando o texto*/ 
+    color: #190be4;     /*Cor da fonte*/
+    text-align: justify;  /*Texto justificado*/
+    padding: 10px;        /*Criando margem para o texto*/
+}
+
+/*Formata o texto abaixo da figura de cabeçalho.*/
+#explainer > p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:  2rm;
+}
+
+/*Formatando o botão*/
+#cta {
+    border: nome;
+    padding: 0, 8rem, 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 91, 116); /*Cor de fundo*/
+    color: white;         /*Cor da fonte*/  
+    border-radius: 20px;    /*Borda arrendondada*/
+    font-weight: bold;      /*Fonte*/
+}
+
+/*Formatando o texto dentro do botão*/
+#cta > p{
+    padding-top:3px;
+    font-size: 1rem;
+    text-shadow: 2px 2px 10px black;
+}
+
+/*Muda a cor do botão quanto o cursor passa por cima.*/
+#cta:hover {
+    background-color: rgb(78, 24, 202);
+}
+
+/*Opiniões dos visitantes.*/
+#opinions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;        /*Centralizando os elementos.*/
+}
+
+#opinions > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    background-color: rgb(78, 43, 160);
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#opinions > article > img {
+    width: 15rem;               /*Definindo o tamanho das imagens.*/
+    clip-path: circle();        /*Criando imagens circulares.*/
+}

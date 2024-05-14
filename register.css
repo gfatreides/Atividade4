@@ -1,0 +1,185 @@
+* {
+    font-family: sans-serif;/*Formatando as fontes da página*/
+    box-sizing: border-box; /*Tamanho da caixa*/
+    margin: 0;/*Zerando as margens dos elementos*/
+}
+
+/*Formatando os elementos do cabeçalho*/
+header{
+    padding: 1rem;
+    box-shadow: 0 5px 10px rgb(37,37,212);
+    position: sticky;   /*fixando o cabeçalho*/
+    top: 0;     /*Fixando no topo*/
+    left: 0;    /*Fixando à esquerda*/
+    background-color: white;    /*Cor de fundo*/    
+}
+
+/*Alinha os elementos do cabeçalho.*/
+nav {
+    display: flex;
+    justify-content:space-between;  /*Espaçando os ítens de cabeçaho*/
+    align-items: center;            /*Fixando os íntens no meio do cabeçalho*/
+}
+
+/*Mudando o comportamento do botão (mãozinha)*/
+button {
+    cursor: pointer;
+}
+
+/*Alinhando os ítens do cabeçalho - elementos de navegação*/
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/*Dispor os elementos do cabeçalho em linha.*/
+header ul {
+    display: flex;
+}
+
+/*Formatando os link do cabeçalho*/
+nav ul a {
+    margin-left: 2rem;  /*Definindo a margem esquerda*/
+    list-style: none;   /*Tirando os marcadores dos links*/
+    font-weight: bold;  /*Negrito*/
+}
+/*"classe navitem - links do cabeçalho"*/
+.navitem{
+    color:rgb(65, 65, 243);
+    /*Tirando o sublinhado do link*/
+    text-decoration: none;
+}
+
+/*Pseudo-seletor*/
+/*Muda a cor do link quando o curso passar por cima*/
+.navitem:hover{
+    color:rgb(116, 224, 54)
+}
+
+/*Cor do fundo da página.*/
+body {  		
+    background-color: whitesmoke;
+ }
+
+main {
+    padding: 1rem;
+    min-height: 100dvh; /*Altura mínima da seção principal*/
+}
+
+/*Seção principal do 1º registro.*/
+#registro{
+    display: flex;
+    justify-content: center;    /*Alinhando ao centro.*/
+    margin: 4rem 0;
+}
+
+/* 1ª caixa de formulário de registro.*/
+#formulario_registro{
+    display: flex;
+    flex-direction: column;        /*Organizando os ítens em coluna.*/
+    background-color: blue;     /*Cor de fundo do formulário*/
+    color: white;               /*Cor da fonte*/
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 10px;
+    gap: 2rem;      /*Distância entre as caixas de preenchimento.*/
+}
+
+.input-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper > input{
+    flex-grow: 1;           /*Aumenta o tamanho das caixas.*/
+    padding: 0.3 rem;
+    font-weight: bold;      /*Fonte em negrito*/
+    border-radius: 5px;     /*Arrendondando bordas*/
+}
+
+.input-wrapper > label {
+    width: 130px;   /*Largura da caixa.*/
+    text-align: end;
+    padding-right: 10px;
+}
+
+#botão_registro{
+    padding: 0.2rem;
+    border-radius: 0.2;
+    font-weight: bold;
+    font-size: 1 rem;
+    background-color: #f0f0f0 ;
+    color: rgb(6, 6, 56);
+    border-radius: 5px;     /*Arrendondando bordas*/
+}
+
+#botão_registro:hover {
+    background-color: rgb(153, 153, 238);
+    color: #7473df
+}
+
+/*Formantando o texto*/
+#texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /*Alinhando o texto*/ 
+    color: #190be4;     /*Cor da fonte*/
+    text-align: justify;  /*Texto justificado*/
+    padding: 10px;        /*Criando margem para o texto*/
+}
+
+/*Footer - rodapé*/
+footer {
+    background-color: rgb(48, 48, 199);
+    padding: 1rem;
+    color: white;     /*Cor da fonte*/
+    position: sticky;   /*Fixando o rodapé*/
+    bottom: 0;
+    display: flex;
+    justify-content: space-around; /*Organizando os elementos (frase)*/
+    font-weight: bold;
+    box-shadow: 0 -5px 10px rgb(66, 66, 233);
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/*2ª caixa de formulário*/
+
+/*Seção principal do registro.*/
+#registro2{
+    display: flex;
+    justify-content: center;    /*Alinhando caixa à esquerda.*/
+    margin: 4rem 0;           /*Margem*/
+}
+
+#formulario_registro2{
+    flex-direction: column;
+    background-color: blue;     /*Cor de fundo do formulário*/
+    color: white;               /*Cor da fonte*/
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 10px;    /*Borda da caixa*/
+    gap: 2rem;      /*Distância entre as caixas de preenchimento.*/
+}
+
+.input-wrapper2{
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper2 > input{
+    flex-grow: 1;           /*Aumenta o tamanho das caixas.*/
+    padding: 0.3 rem;
+    font-weight: bold;      /*Fonte em negrito*/
+    border-radius: 5px;     /*Arrendondando bordas*/
+}
+
+.input-wrapper2 > label {
+    width: 130px;   /*Largura da caixa.*/
+    text-align: end;
+    padding-right: 10px;
+    gap: 2rem;
+}

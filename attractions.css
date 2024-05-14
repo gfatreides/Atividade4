@@ -1,0 +1,141 @@
+* {
+    font-family: sans-serif;/*Formatando as fontes da página*/
+    box-sizing: border-box; /*Tamanho da caixa*/
+    margin: 0;/*Zerando as margens dos elementos*/
+}
+
+/*Formatando os elementos do cabeçalho*/
+header{
+    padding: 1rem;
+    box-shadow: 0 5px 10px rgb(37,37,212);
+    position: sticky;   /*fixando o cabeçalho*/
+    top: 0;     /*Fixando no topo*/
+    left: 0;    /*Fixando à esquerda*/
+    background-color: white;    /*Cor de fundo do cabeçalho*/    
+}
+
+/*Alinha os elementos do cabeçalho.*/
+nav {
+    display: flex;
+    justify-content:space-between;  /*Espaçando os ítens de cabeçaho*/
+    align-items: center;            /*Fixando os íntens no meio do cabeçalho*/
+}
+
+/*Mudando o comportamento do botão (mãozinha)*/
+button {
+    cursor: pointer;
+}
+
+/*Alinhando os ítens do cabeçalho - elementos de navegação*/
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/*Dispor os elementos do cabeçalho em linha.*/
+header ul {
+    display: flex;
+}
+
+/*Formatando os links do cabeçalho*/
+nav ul a {
+    margin-left: 2rem;  /*Definindo a margem esquerda*/
+    list-style: none;   /*Tirando os marcadores dos links*/
+    font-weight: bold;  /*Formatando a fonte para negrito*/
+}
+
+/*Centralizando a tabela*/
+#tabela{
+	 margin: 0 auto;
+	 text-align: center;
+}
+
+/*Centralizando o título na página.*/
+#texto{
+	text-align: center;
+	color: blue;
+}
+
+/*"classe navitem - links do cabeçalho"*/
+.navitem{
+    color:rgb(65, 65, 243);
+    /*Tirando o sublinhado do link*/
+    text-decoration: none;
+}
+
+/*Pseudo-seletor*/
+/*Muda a cor do link quando o curso passar por cima*/
+.navitem:hover{
+    color:rgb(116, 224, 54)
+}
+
+.imagem{
+	border-radius: 3%;		/*Criando bordas arredondadas nas imagens.*/
+}
+
+/*Formatando os textos*/
+.texto{
+	font-weight: 100;		/*Tirando o negrito da fonte.*/
+    font-size: 14px;		/*Alterando o tamanho da fonte para 14px*/
+	color: blue;			/*Cor da fonte em azul*/
+}
+
+/*Formatando os nomes das atrações*/
+.nome_atração{
+	font-size: 15px;		/*Alterando o tamanho da fonte para 14px*/
+	color: blue;
+	align: center;
+	
+}
+
+/*Descendo o texto da linha sombreada*/
+main {
+    padding: 1rem;
+    min-height: 100dvh; /*Altura mínima da seção principal*/
+}
+
+/*Footer - rodapé*/
+footer {
+    background-color: rgb(48, 48, 199);
+    padding: 1rem;
+    color: white;     	/*Cor da fonte*/
+    position: sticky;   /*Fixando o rodapé*/
+    bottom: 0;
+    display: flex;
+    justify-content: space-around; /*Organizando os elementos (frase)*/
+    font-weight: bold;
+    box-shadow: 0 -5px 10px rgb(66, 66, 233);
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Formatando o botão*/
+#cta {
+    border: nome;
+    padding: 0, 8rem, 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 91, 116); /*Cor de fundo*/
+    color: white;         /*Cor da fonte*/  
+    border-radius: 20px;    /*Borda arrendondada*/
+    font-weight: bold;      /*Fonte*/
+}
+
+/*Formatando o texto dentro do botão*/
+#cta > p{
+    padding-top:3px;
+    font-size: 1rem;
+    text-shadow: 2px 2px 10px black;
+}
+
+/*Muda a cor do botão quanto o cursor passa por cima.*/
+#cta:hover {
+    background-color: rgb(78, 24, 202);
+}
+
+
+
+

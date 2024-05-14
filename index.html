@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- Alterando o idioma para português do Brasil -->
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--link criado para usar icones do site https://materializecss.com/icons.html-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--Link criado para ligar ao arquivo CSS style.css-->
+        <link rel="stylesheet" href="./style.css">
+        <!--Inserindo o favicon.-->
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <!--Nome da página.-->
+        <title>ADVENTURELAND</title>
+    </head>
+    <!--Corpo da página-->
+    <body>
+        <header><!-- Cabeçalho -->
+            <nav><!--Elementos de navegação-->
+                <a href="a" id="logo" class="navitem"><!--Vai para o topo da página-->
+                    <!-- Inserindo ícone e referenciando o título no topo da página-->
+                    <h2> <img src="figuras/icone_parque.jpg" alt="icone parque" height="5%" width="5%"> AdventureLand</h2>
+                </a>
+                
+                <!--Criando links internos no cabeçalho.-->
+                <ul><!--Referenciando os links no topo da página.-->
+                    <a class="navitem" href="attractions.html"><li>ATRAÇÕES</li></a>
+                    <a class="navitem" href="passport.html"><li>PASSAPORTE</li></a>
+                    <a class="navitem" href="optional.html"><li>OPCIONAIS</li></a>
+                    <a class="navitem" href="food.html"> <li>ALIMENTAÇÃO</li></a>
+                    <a class="navitem" href="accinnidation.html"><li>HOSPEDAGEM</li></a>
+                    <a class="navitem" href="register.html"><li>CADASTRO</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        </section> <!--Inserindo e formatando a imagem abaixo do cabeçalho.-->
+            <aside>
+                <img src="figuras/adventureland.jpg" alt="Image" height="500" width="100%">
+				<h3><p id="atrações"><br>
+                        AS AVENTURAS MAIS DIVERTIDAS DO MUNDO!
+                </p></h3>
+				<br>
+            </aside>
+        </section>
+
+        <main><!-- Criando a seção principal da página, abaixo do cabeçalho. -->
+            <section id="hero">
+                <section id="explainer">
+                    <aside> <!--Imagens página principal-->
+					<!-- Inserindo as primeiras figuras em uma tabela.-->
+					<!-- Centralizando a tabela: "center"-->
+					<center>
+						<table cellspacing="12">
+							<tr>
+								<td>
+								<img src="figuras/hamburguer_betocarrero.jpg" alt="Imagem de hamburguer." height="400" width="500">
+								</td>
+								<td>
+								<img src="figuras/carro_betocarrero.jpg" alt="Carro de corrida." height="400" width="500">
+								</td>
+								<td>
+								<img src="figuras/promo_betocarrero.png" alt="Promoção." height="300" width="400">
+								</td>
+							</tr>
+						</table>
+					</center>
+                    </aside>
+                    <br>
+					
+                    <h3 id="tituloatrações">CONHEÇA NOSSAS ATRAÇÕES E SINTA O SEU MUNDO GIRAR EM TORNO DA DIVERSÃO!</h3>
+					<br>
+					<p id="texto">Já considerado como o maior parque temático da América Latina, agora, 
+						o parque também tem o pódio do Prêmio Melhores Destinos 2023/2024. O ADVENTURELAND é 
+						um excelente passeio com atrações para toda a família. Ele fica a apenas 60 km de 
+						Belo Horizonte, ocupando uma área de 760.000 m2, sendo duas vezes maior que o Estado 
+						do Vaticano. Com oferta de opções infatis até as mais radicais, o lugar ainda conta 
+						com personagens dos filmes da DreamWorks Animation - como Madagascar e Shrek.</p>
+                   
+					<center>
+						<table cellspacing="12">
+							<tr>
+								<td>
+								<img src="figuras/roda_giganteluz.jpg" alt="Roda gigante iluminada. " height="100%" class="imagem">
+								</td>
+								<td>
+								<img src="figuras/casal_parque.jpg" alt="Casal no parque." height="100%" class="imagem">
+								</td>
+								<td>
+								<img src="figuras/queda_livre.jpg" alt="Atração: queda livre." height="100%" class="imagem">
+								</td>
+								<td>
+								<img src="figuras/roda_gigantemulheres.jpg" alt="Roda gigante e amigas. "height="100%" class="imagem">
+								</td>
+							</tr>
+								
+								
+							<tr>	
+								<td>
+								<img src="figuras/lanchonete_foodtruck.jpg" alt="Atração: Lanchonete foodtruck." height="242" width="359" class="imagem">
+								</td>
+								<td>
+								<img src="figuras/montanharussa_azul.jpg" alt="Atraçaõ: Montanha russa." height="242" width="359" class="imagem">
+								</td>
+								<td>
+								<img src="figuras/dinossauro_braquiossauro.jpg" alt="Atração: braquiossauro." height="242" width="359" class="imagem">
+								</td>
+								<td>
+								<img src="figuras/lanchonete_parque.jpg" alt="Atração: Roda gigante e lanchonete". height="242" width="359" class="imagem">
+								</td>
+							</tr>
+						</table>
+					</center>
+					<br><br><br>
+					
+					<h3 id="tituloatrações">Para conhecer tudo o que nosso parque oferece, indicamos um pacote de programações para três dias!</h3>
+					<br><br><br>
+					<center>
+						<table border="1">
+							<tr>
+								<td>
+									<img src="figuras/smat_day.png" alt="Atração: Roda gigante e lanchonete". height="100%" width="100%" class="imagem">
+								</td>
+							</tr>
+						</table>
+					</center>
+					
+                    <br>
+                    <hr>
+                    </h3><!-- Inserindo um botão com texto e ícone -->
+                    <button id="cta"><p>Garanta já a sua diversão</p><i class="material-icons">keyboard_arrow_right</i></button>
+                </section>
+            </section>
+            <br>
+
+            <!--Opiniões dos visitantes.-->
+            <section id="opinions">
+                <article>
+                    <h2><br>
+                        OPINIÕES DOS VISITANTES
+                    </h2><br>
+                    <img src="figuras/pessoas1.jpg" alt="Casal no parque." height="100" width="200">
+                    <br>
+                    <p>
+                        Exploramos algumas das atrações inusitadas de AdventureLand para desfrutar de um dia surpreendente de natureza e arte. 
+						Passeamos pelas trilhas e calçadões do Jardim Botânico  para apreciar uma escapada tranquila cheia de borboletas, 
+						flores e observação de pássaros. Tudo foi excepcional.
+                    </p>
+                    <br>
+                    <img src="figuras/pessoas4.jpg" alt="Família no parque" height="100" width="200">
+                    <br>
+                    <p>
+                        "O Parque do Incrível". O local é recheado de opções exclusivas e de lojas e restaurantes, com uma atmosfera vibrante 
+						que lembra os parques temáticos dos Estados Unidos. 
+                    </p>
+                    <br>
+
+                    <!--Inserindo um comentário de visitante usando a tag blockquote-->
+                    <img src="figuras/MichaelJackson.jpg" alt="Foto Michael Jackson criança.">
+                    <blockquote cite="https://www.pensador.com/parque_de_diversao/">
+                    <br>
+                        As pessoas me vêem em um parque de diversão, ou então com outras crianças, me divertindo, e elas não param e pensam, 
+						"Ele nunca teve essa chance quando era novo. Eu nunca tive a chance de fazer as coisas divertidas que as crianças fazem: 
+						dormir um na casa do outro, festas, brincadeiras. Não havia Natal, nem feriados. Então agora você tenta compensar 
+						algumas dessas perdas.
+                        <br><br>
+                        Michael Jackson
+                    </blockquote>
+                  
+                </article>
+            </section>
+            </section>
+        </main>
+        <footer><p>Visite nossas redes sociais</p><!--Área de rodapé-->
+        <!--Inserindo um link para uma página externa, em forma de ícone (Beto Carrero World).-->
+        <!--Inserindo uma figura para representar o link.-->
+            <a href="https://www.betocarrero.com.br" > <i class="material-icons">camera_alt</i> </a>
+        </footer>
+    </body>
+</html>
+
+
+
+   
+    
+    

@@ -1,0 +1,137 @@
+
+
+<!DOCTYPE html>
+<!-- Alterando o idioma para português do Brasil -->
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Titulo da página e mudando a fonte-->
+        <link rel="stylesheet" href="./attractions.css">
+        <title>ADVENTURELAND </title>
+    </head>
+    <body><!-- Cabeçalho -->
+        <header><!-- Cabeçalho -->
+            <nav><!--Elementos de navegação-->
+                <a href="a" id="logo" class="navitem"><!--Vai para o topo da página-->
+                    <!-- Inserindo ícone e referenciando o título no topo da página-->
+                    <h2> <img src="figuras/icone_parque.jpg" alt="icone parque" height="5%" width="5%"> AdventureLand</h2>
+                </a>
+                
+                <!--Criando links internos no cabeçalho.-->
+                <ul><!--Referenciando os links no topo da página.-->
+                    <a class="navitem" href="attractions.html"><li>ATRAÇÕES</li></a>
+                    <a class="navitem" href="passport.html"><li>PASSAPORTE</li></a>
+                    <a class="navitem" href="optional.html"><li>OPCIONAIS</li></a>
+                    <a class="navitem" href="food.html"> <li>ALIMENTAÇÃO</li></a>
+                    <a class="navitem" href="accinnidation.html"><li>HOSPEDAGEM</li></a>
+                    <a class="navitem" href="register.html"><li>CADASTRO</li></a>
+                </ul>
+            </nav>
+        </header>
+		
+		
+        
+        <main>
+		</section class="imagens"> <!--Inserindo e formatando a imagem-->
+            <aside>
+                <p><img src="figuras/montanharussa_sorriso.jpg" alt="Montanha-russa sorriso." height="90%" width="100%"></p>
+				<br>
+				<h3><p id="texto">CONHEÇA NOSSAS ATRAÇÕES!</p></h3>
+				<br>
+				<br>
+            </aside>
+        </section>
+
+		<!-- ************************************************************************************************************************************************************* -->
+		
+		<!-- Usando uma tabela de duas linhas e três colunas para alinhar imagens e textos-->
+		<!-- Formatando o tamanho da tabela para width="500" -->
+		<!-- Espaçando os elementos da céluda: cellspacing="10" -->
+		<!-- Primeira linha da tabela: imagens.-->
+		<!-- Alinhando os nomes das atrações no centro da célula-->
+		<!-- Fonte em negrito: "strong"-->
+		<!-- A largura da célula é a mesma da coluna: width="500" -->
+		<!-- Uso da tag center para alinhar a tabela no centro da página.-->
+		
+		<center>
+			<table width="500" border="0" cellspacing="12">
+				<tr>
+					<td>
+					<p class="nome_atração" align="center"><strong>SINTA O SEU MUNDO GIRAR EM TORNO DA DIVERSÃO!</strong></p><br>
+					<section class="imagens"><!-- Criando uma seção -->
+					<img src="figuras/atração_spinblast.jpg" alt="Spinblast." height="300" width="500" class="imagem" title="Spinblast"/>
+					<p class="texto" align="justify">Não há frio na barriga que se compare à emoção do Spin Blast!  Você está pronto para embarcar em uma aventura 
+					cheia de movimentos incríveis e risadas contagiantes? </p>
+					</td>
+					
+					<td>
+					<p class="nome_atração" align="center"><strong>A MAIOR MONTANHA-RUSSA DA AMÉRICA LATINA!</strong></p><br>
+					<section class="imagens">
+					<img src="figuras/atração_starmountain.jpg" alt="Star Mountain." height="300" width="500" class="imagem"  title="Star Mountain"/>
+					<p class="texto" align="justify">Com uma queda inicial de 35 metros de altura, a Star Mountain é uma das maiores montanhas-russas da América Latina! 
+					No percurso, você encara dois loopings de muita adrenalina e emoção!</p>
+					</td>
+					
+					<td>
+					<p class="nome_atração" align="center"><strong>RÉPLICA DO PRIMEIRO CARROSSEL FABRICADO NO MUNDO!</strong></p><br>
+					<section class="imagens">
+					<img src="figuras/atração_carrocelveneziano.jpg" alt="Carrocel Veneziano." height="300" width="500" class="imagem" title="Carrocel Veneziano"/>
+					<p class="texto" align="justify">Este brinquedo foi importado da Itália e chegou para encher os olhos do público. Crianças e adultos ficam encantados,
+					e para os casais é uma ótima opção romântica. Esta obra de arte conta com mais de 1.800
+					lâmpadas.</p>
+					</td>
+				</tr>
+				
+				<!-- Segunda linha da tabela: Imagens e textos. -->
+				<tr>
+					<td>
+					<!-- Justificando o texto na célula: aling="justify" -->
+					<img src="figuras/golfinhos.jpg" height="300" width="500" class="imagem" title="Golfinhos nariz de garrafa."/>
+					<p class="texto" align="justify">Explore o mundo dos oceanos de uma maneira que você nunca viu antes! Nesta apresentação, 
+					você poderá explorar o mundo emocionante dos golfinhos-nariz-de-garrafa de uma maneira que nunca 
+					viu antes. 
+					</p>
+					</td>
+					
+					<td>
+					<img src="figuras/henrypotter.jpg" height="300" width="500" class="imagem" title="Mundo Harry Potter.">
+					<p class="texto" align="justify">Embarque em um jornada épica pelos mundos de heróis, mitos e lendas. Seja convidado para estudar na 
+					Escola de Magia e Bruxaria de Hogwarts e sinta a magia no ar.</p>
+					</td>
+					
+					<td> 
+					<img src="figuras/ilha_vulcanica.jpg" height="300" width="500" class="imagem" title="Ilha da Fantasia.">
+					<p class="texto" align="justify">Aventureiros, exploradores, amantes de livros e aqueles em busca de emoção 
+					ficarão maravilhados com as experiências inacreditáveis que os esperam na Ilha da Fantasia: 
+					um mundo onde heróis, mitos e lendas se tornam realidade.</p>
+					</td>
+				</tr>
+			</table>
+		</center>
+
+        <section>
+            <!-- Inserindo um botão com texto e ícone -->
+            <button id="cta"><p>Garanta já a sua diversão</p><i class="material-icons">keyboard_arrow_right</i></button>
+            </section>
+        </main>
+        <!--Área de rodapé-->
+  
+        <footer>Visite nossas redes sociais
+        <!--Formatando o rodapé em CSS;
+        Inserindo um link em forma de ícone para uma rede social (Beto Carrero World).-->
+            <a href="https://www.betocarrero.com.br" > <i class="material-icons">camera_alt </i> </a>
+        </footer>
+		
+		
+		
+		
+    </body>
+</html>
+
+
+
+   
+    
+    
